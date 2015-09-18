@@ -4,8 +4,8 @@
 
     <!--- Global CSS --->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.css" />
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />-->
     <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -18,46 +18,80 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+      <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+          </button>
+
+      </div>
+      <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav" id="top-nav">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#recipes">Indian Recipes</a></li>
+                  <li><a href="#coming">Coming Soon!</a></li>
+                  <li><a href="#contact-me">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
 <div class="container">
-    <div class="two columns">
-        <h1>Shilpa Kothari</h1>
+    <!-- <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav nav-pills list">
+          <li><h1>Shilpa Kothari</h1></li>
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">About</a></li>
+          <li role="presentation"><a href="#">Indian Recipes</a></li>
+          <li role="presentation"><a href="#">Coming Soon!</a></li>
+          <li role="presentation"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  </nav> -->
+
+
+    <div class="row">
+        <div class="col-md-12 header">
+         <img src="http://1.bp.blogspot.com/-PhsO_Up874w/UCylK7RD8WI/AAAAAAAAEBo/2RXGXP41eaY/s1600/Indian%2BFlag%2BImages-08.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div id="welcome" class="col-md-12">
+            <h1>My secret recipes</h1>
+            <p>These are my family recipes passed down to me from my ancestors.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 recipe">
+            <h2>recipe name</h2>
+            <img src="http://lowfatveganchef.com/blog/wp-content/uploads/2012/10/Basmati-Rice.jpg">
+            <p>Collection of rice recipe</p>
+        </div>
+
+        <div class="col-md-4 recipe">
+            <h2>recipe name</h2>
+            <img src="http://www.offthegridnews.com/wp-content/uploads/2011/06/Wheat-berries.jpg">
+            <p>Collection of wheat recipe</p>
+        </div>
+
+        <div class="col-md-4 recipe">
+            <h2>recipe name</h2>
+            <img src="http://gorgeoustalk.com/wp-content/uploads/2014/12/Dal-health-benefits1.jpg">
+            <p>Collection of lentils recipe</p>
+        </div>
     </div>
 
-    <div id="nav" class="fourteen columns">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Indian Recipes</a></li>
-            <li><a href="#">Coming Soon!</a></li>
-            <li><a href="#">Contact</a></li>
+    <div class="footer">
+        <ul class="social">
+            <li>&copy; 2015 Shilpa Kothari</li>
+            <li><i class="fa fa-twitter fa-3x fa-border"></i></li>
+            <li><i class="fa fa-facebook fa-3x fa-border"></i></li>
         </ul>
     </div>
-</div>
-<div id="headerImage" class="sixteen columns">
- <img src="http://1.bp.blogspot.com/-PhsO_Up874w/UCylK7RD8WI/AAAAAAAAEBo/2RXGXP41eaY/s1600/Indian%2BFlag%2BImages-08.jpg">
-</div>
-
-<div id="welcome" class="sixteen columns">
-    <h1>My secret recipes</h1>
-    <p>These are my family recipes passed down to me from my ancestors.</p>
-</div>
-
-<div class="one-third column feature">
-    <h2>recipe name</h2>
-    <img src="http://lowfatveganchef.com/blog/wp-content/uploads/2012/10/Basmati-Rice.jpg">
-    <p>Collection of rice recipe</p>
-</div>
-
-<div class="one-third column feature">
-    <h2>recipe name</h2>
-    <img src="http://www.offthegridnews.com/wp-content/uploads/2011/06/Wheat-berries.jpg">
-    <p>Collection of wheat recipe</p>
-</div>
-
-<div class="one-third column feature">
-    <h2>recipe name</h2>
-    <img src="http://gorgeoustalk.com/wp-content/uploads/2014/12/Dal-health-benefits1.jpg">
-    <p>Collection of lentils recipe</p>
 </div>
 </body>
 
