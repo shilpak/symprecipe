@@ -1,0 +1,39 @@
+.list {
+    margin: 0px 5px 0px 10px;
+}
+.header {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.header img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.recipe img {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+#welcome {
+    margin-bottom: 20px;
+}
+
+.footer {
+
+}
+
+.social {
+    list-style: none;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 0;
+    width: 780px;
+}
+
+.social li {
+    display: inline;
+}
